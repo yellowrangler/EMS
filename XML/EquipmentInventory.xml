@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="EquipmentInventory.xsd" generated="2009-12-10T09:03:38">
+<EquipmentInventory>
+<ID>1</ID>
+<SquadID>1</SquadID>
+<Description>Two Way Radio</Description>
+<Category>1</Category>
+<Condition>(2) Good</Condition>
+<In_x0020_Service>1</In_x0020_Service>
+<Acquired_x0020_Date>2009-12-01T00:00:00</Acquired_x0020_Date>
+<Purchase_x0020_Price>125</Purchase_x0020_Price>
+<Current_x0020_Value>125</Current_x0020_Value>
+<Serial_x0020_Number>abc1234567890</Serial_x0020_Number>
+<Manufacturer>Motorola</Manufacturer>
+<Model>abc123</Model>
+<Comments>&lt;div&gt;No user manual attached - The assigned to field should be removed&lt;/div&gt;</Comments>
+<AssignedTo>1</AssignedTo>
+</EquipmentInventory>
+<EquipmentInventory>
+<ID>2</ID>
+<SquadID>1</SquadID>
+<Description>Pager</Description>
+<Category>1</Category>
+<Condition>(2) Good</Condition>
+<In_x0020_Service>1</In_x0020_Service>
+<Acquired_x0020_Date>2009-12-01T00:00:00</Acquired_x0020_Date>
+<Purchase_x0020_Price>100</Purchase_x0020_Price>
+<Current_x0020_Value>100</Current_x0020_Value>
+<Serial_x0020_Number>abc987654321</Serial_x0020_Number>
+<Manufacturer>Motorola</Manufacturer>
+<Model>abc987</Model>
+</EquipmentInventory>
+<EquipmentInventory>
+<ID>3</ID>
+<SquadID>1</SquadID>
+<Description>O2</Description>
+<Category>5</Category>
+<Condition>(2) Good</Condition>
+<In_x0020_Service>1</In_x0020_Service>
+<Acquired_x0020_Date>2009-12-01T00:00:00</Acquired_x0020_Date>
+<Purchase_x0020_Price>10</Purchase_x0020_Price>
+<Current_x0020_Value>10</Current_x0020_Value>
+</EquipmentInventory>
+</dataroot>

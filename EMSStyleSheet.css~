@@ -1,0 +1,193 @@
+#allcontent {
+		width:<?php print $allcontentWidth; ?>px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+    background: <?php print $allcontentBackgroundColor; ?>;
+		
+		}
+
+.Banner {
+		position: absolute;
+		overflow:hidden;
+		display:block;
+		left:0px;
+		top:0px;
+		z-index: +1;
+		height:<?php print $BannerHeight; ?>px;
+		width:<?php print $BannerWidth; ?>px;
+    background: <?php print $BannerBackgroundColor; ?>;
+		}
+		
+.MainNav {
+		position: absolute;
+		display: inline;
+		left:0px;
+		top:<?php print $MainNavTop; ?>px;
+		height:<?php print $MainNavHeight; ?>px;
+		width:<?php print $MainNavWidth; ?>px; 
+    background: <?php print $MainNavBackgroundColor; ?>;
+		}
+
+.LeftNav {
+		position: absolute;
+		left:0px;
+		top:<?php print $LeftNavTop; ?>px;
+		height:<?php print $LeftNavHeight; ?>px;
+		width:<?php print $LeftNavWidth; ?>px; 
+    background: <?php print $LeftNavBackgroundColor; ?>;
+		}
+
+.AdsArea {
+		position: absolute;
+		left:<?php print $WALeft; ?>px;
+		top:<?php print $AdsAreaTop; ?>px;
+		height:<?php print $AdsAreaHeight; ?>px;
+		width:<?php print $AdsAreaWidth; ?>px; 
+    background: <?php print $AdsAreaBackgroundColor; ?>;
+		}
+		
+.Workarea {
+		position: absolute;
+		overflow: hidden;
+		left:<?php print $WALeft; ?>px;
+		top:<?php print $WATop; ?>px;
+		width:<?php print $WAWidth; ?>px;
+		height:<?php print $WAHeight; ?>px;
+		background: <?php print $WABackgroundColor; ?>;
+		}
+
+.Quickpickarea {
+		position: absolute;
+		overflow: hidden;
+		left:<?php print $QPLeft; ?>px;
+		top:<?php print $QPTop; ?>px;
+		width:<?php print $QPWidth; ?>px;
+		height:<?php print $QPHeight; ?>px;
+		background: <?php print $QPBackgroundColor; ?>;
+		}
+		
+		
+.Footer {
+		position: absolute; 
+		display:block;
+		top:<?php print $FooterTop; ?>px; 
+		left:<?php print $FooterLeft; ?>px;
+		width:<?php print $FooterWidth; ?>px;
+    height: 50px;
+		border:0px solid white;
+		background: <?php print $FooterBackgroundColor; ?>;
+		}
+
+#PersonalEMSForm {
+		position: absolute;
+    overflow: hidden;
+    top:<?php print $PersonalEMSFormTop; ?>px;
+		left:<?php print $PersonalEMSFormLeft; ?>px;
+		width:<?php print $PersonalEMSFormWidth; ?>px;
+		height:<?php print $PersonalEMSFormHeight; ?>px;
+		background: yellow;
+		}
+
+#ContactInfo {
+		position: absolute;
+    top:<?php print $ContactInfoTop; ?>px;
+		left:<?php print $ContactInfoLeft; ?>px;
+		width:<?php print $ContactInfoWidth; ?>px;
+		height:<?php print $ContactInfoHeight; ?>px;
+		background: <?php print $ContactInfoBackgroundColor; ?>;
+		}
+
+#PersonPhoto {
+		position: absolute;
+    top:<?php print $PersonPhotoTop; ?>px;
+		left:<?php print $PersonPhotoLeft; ?>px;
+		width:<?php print $PersonPhotoWidth; ?>px;
+		height:<?php print $PersonPhotoHeight; ?>px;
+		background: <?php print $PersonPhotoBackgroundColor; ?>;
+		}
+    
+#PersonName {
+		position: absolute;
+    top:<?php print $PersonNameTop; ?>px;
+		left:<?php print $PersonNameLeft; ?>px;
+		width:<?php print $PersonNameWidth; ?>px;
+		height:<?php print $PersonNameHeight; ?>px;
+		background: <?php print $PersonNameBackgroundColor; ?>;
+		}
+    
+#PersonContact {
+		position: absolute;
+    top:<?php print $PersonContactTop; ?>px;
+		left:<?php print $PersonContactLeft; ?>px;
+		width:<?php print $PersonContactWidth; ?>px;
+		height:<?php print $PersonContactHeight; ?>px;
+		background: <?php print $PersonContactBackgroundColor; ?>;
+		}
+    
+#PersonAddress {
+		position: absolute;
+    top:<?php print $PersonAddressTop; ?>px;
+		left:<?php print $PersonAddressLeft; ?>px;
+		width:<?php print $PersonAddressWidth; ?>px;
+		height:<?php print $PersonAddressHeight; ?>px;
+		background: <?php print $PersonAddressBackgroundColor; ?>;
+		}
+
+#PersonAlerts {
+		position: absolute;
+    top:<?php print $PersonAlertsTop; ?>px;
+		left:<?php print $PersonAlertsLeft; ?>px;
+		width:<?php print $PersonAlertsWidth; ?>px;
+		height:<?php print $PersonAlertsHeight; ?>px;
+		background: <?php print $PersonAlertsBackgroundColor; ?>;
+		}
+
+#EMSInfo {
+		position: absolute;
+    top:<?php print $EMSInfoTop; ?>px;
+		left:<?php print $EMSInfoLeft; ?>px;
+		width:<?php print $EMSInfoWidth; ?>px;
+		height:<?php print $EMSInfoHeight; ?>px;
+		background: <?php print $EMSInfoBackgroundColor; ?>;
+		}
+
+
+#EMSDetail {
+		position: absolute;
+    top:<?php print $EMSDetailTop; ?>px;
+		left:<?php print $EMSDetailLeft; ?>px;
+		width:<?php print $EMSDetailWidth; ?>px;
+		height:<?php print $EMSDetailHeight; ?>px;
+		background: <?php print $EMSDetailBackgroundColor; ?>;
+		}
+    
+#EMSBio {
+		position: absolute;
+    top:<?php print $EMSBioTop; ?>px;
+		left:<?php print $EMSBioLeft; ?>px;
+		width:<?php print $EMSBioWidth; ?>px;
+		height:<?php print $EMSBioHeight; ?>px;
+		background: <?php print $EMSBioBackgroundColor; ?>;
+		}
+    
+    
+.FormElement {
+    font: 500 11px Verdana, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 15px;
+    }
+
+.FormElement input, textarea {
+    font: 500 11px Verdana, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 15px;
+    }
+
+.FormTitle {
+    font: 700 13px Verdana, Helvetica, sans-serif;
+    color: blue;
+    line-height: 25px;
+    }
+   

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="SquadDetails.xsd" generated="2009-12-10T09:04:09">
+<SquadDetails>
+<ID>1</ID>
+<Squad_x0020_Name>Stowe Rescue Squad</Squad_x0020_Name>
+<Squad_x0020_Manager_x0020_Last_x0020_Name>Bouffard</Squad_x0020_Manager_x0020_Last_x0020_Name>
+<Squad_x0020_Manager_x0020_First_x0020_Name>Jon</Squad_x0020_Manager_x0020_First_x0020_Name>
+<Squad_x0020_Manager_x0020_E-mail_x0020_Address>jbouffard@stowerescue.org</Squad_x0020_Manager_x0020_E-mail_x0020_Address>
+<Squad_x0020_Manager_x0020__x0020_Title>Mr.</Squad_x0020_Manager_x0020__x0020_Title>
+<Town_x002F_City>Stowe</Town_x002F_City>
+<State_x002F_Province>VT</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>05672</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>stowerescue.org#http://stowerescue.org#</Web_x0020_Page>
+<Medical_x0020_Director_x0020_Last_x0020_Name>Keating</Medical_x0020_Director_x0020_Last_x0020_Name>
+<Squad_x0020_Membership_x0020_Start_x0020_Date>2009-12-06T00:00:00</Squad_x0020_Membership_x0020_Start_x0020_Date>
+<Squad_x0020_Active>1</Squad_x0020_Active>
+</SquadDetails>
+</dataroot>

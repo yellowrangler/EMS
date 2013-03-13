@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="SquadMemberEquipment.xsd" generated="2009-12-10T09:05:03">
+<SquadMemberEquipment>
+<ID>1</ID>
+<SquadID>1</SquadID>
+<SquadMemberID>1</SquadMemberID>
+<EquipmentInventoryID>1</EquipmentInventoryID>
+<EquipmentAssignedDate>2009-12-01T00:00:00</EquipmentAssignedDate>
+<EquipmentActive>1</EquipmentActive>
+</SquadMemberEquipment>
+<SquadMemberEquipment>
+<ID>2</ID>
+<SquadID>1</SquadID>
+<SquadMemberID>1</SquadMemberID>
+<EquipmentInventoryID>2</EquipmentInventoryID>
+<EquipmentAssignedDate>2009-12-01T00:00:00</EquipmentAssignedDate>
+<EquipmentActive>1</EquipmentActive>
+</SquadMemberEquipment>
+<SquadMemberEquipment>
+<ID>3</ID>
+<SquadID>1</SquadID>
+<SquadMemberID>1</SquadMemberID>
+<EquipmentInventoryID>3</EquipmentInventoryID>
+<EquipmentAssignedDate>2009-12-01T00:00:00</EquipmentAssignedDate>
+<EquipmentActive>1</EquipmentActive>
+</SquadMemberEquipment>
+</dataroot>

@@ -1,0 +1,63 @@
+<?php
+//----------------------------------------------------------------------------------------------------------
+// Set special globals.
+//----------------------------------------------------------------------------------------------------------
+$module = 'index.php';
+
+require ('EMSGLOBAL.php');
+
+?>
+
+<html>
+
+<?php require ('EMSMETAtags.php'); ?>
+
+<head>
+<title>Whip-poor-Will-Bridge Home Page</title>
+
+<style type="text/css">
+<?php require ("EMSStyleSheet.css"); ?>
+</style>
+
+
+<script type="text/javascript">
+
+// for dojo
+</script>
+		
+<script type="text/javascript">
+<?php require ("javascript/EMSJavaScript.js"); ?>
+<?php require ("javascript/EMSlistLib.js"); ?>
+</script>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+<?php require ("javascript/wz_tooltip.js"); ?>
+
+</script>
+<div id="allcontent">
+
+<div id="Banner" class="Banner">
+
+</div>
+
+<div id="MainNav" class="MainNav">
+
+</div>
+
+<div class="Workarea">
+<?php require ("EMSWorkarea.php"); ?>
+</div>
+
+<div id="Footer" class="Footer">
+
+</div>
+
+</div>
+
+</body>
+</html>

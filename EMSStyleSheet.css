@@ -1,0 +1,544 @@
+#allcontent {
+		width:<?php print $allcontentWidth; ?>px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-left: auto;
+		margin-right: auto;
+    background: <?php print $allcontentBackgroundColor; ?>;		
+		}
+
+.Banner {
+		position: absolute;
+		overflow:hidden;
+		display:block;
+		left:0px;
+		top:0px;
+		z-index: +1;
+		height:<?php print $BannerHeight; ?>px;
+		width:<?php print $BannerWidth; ?>px;
+    background: <?php print $BannerBackgroundColor; ?>;
+		}
+		
+.BannerText {
+		position: absolute;
+		top:<?php print $BannerTextHeight; ?>px;
+		left:<?php print $BannerTextLeft; ?>px;
+		width:<?php print $BannerTextWidth; ?>px;
+		z-index: +3;
+		}
+		
+		
+.MainNav {
+		position: absolute;
+		display: inline;
+		left:0px;
+		top:<?php print $MainNavTop; ?>px;
+		height:<?php print $MainNavHeight; ?>px;
+		width:<?php print $MainNavWidth; ?>px; 
+    background: <?php print $MainNavBackgroundColor; ?>;
+		}
+
+.MainNavTabsUpper {
+		position: absolute;
+		top:0px;
+		margin:0;
+		padding:0;
+		height:<?php print $MainNavTabUpperHeight; ?>px;
+		line-height:<?php print $MainNavTabUpperHeight - 2; ?>px;
+		width:<?php print $MainNavWidth; ?>px; 
+		border-top:0px <?php print $MainNavTabUpperColor; ?>;
+		border-left:2px white;
+		border-right:0px <?php print $MainNavTabUpperColor; ?>;
+		border-bottom:0px <?php print $MainNavTabUpperColor; ?>;
+		}
+
+.MainNavTabsUpperCell {
+		color: <?php print $MainNavTabUpperTextColor; ?>; 
+		font: 700 11px verdana,sans-serif; 
+		vertical-align: middle;
+		text-align: center;
+		border-top:0px <?php print $MainNavTabUpperColor; ?>;
+		border-left:1px white;
+		border-right:0px <?php print $MainNavTabUpperColor; ?>;
+		border-bottom:0px <?php print $MainNavTabUpperColor; ?>;
+		text-decoration: none;
+		background: <?php print $MainNavTabUpperColor; ?>;
+		}		
+
+.MainNavTabsUpperCell:hover {
+		color: <?php print $MainNavTabUpperTextHoverColor; ?>; 
+		font: 700 11px verdana,sans-serif; 
+		vertical-align: middle;
+		text-align: center;
+		border-top:0px <?php print $MainNavTabUpperColor; ?>;
+		border-left:1px white;
+		border-right:0px <?php print $MainNavTabUpperColor; ?>;
+		border-bottom:0px <?php print $MainNavTabUpperColor; ?>;
+		text-decoration: none;
+		background: <?php print $MainNavTabUpperColor; ?>;
+		}		
+
+.MainNavTabsUpperCellSelect {
+		color: <?php print $MainNavTabUpperCellSelectTextColor; ?>; 
+		font: 700 11px verdana,sans-serif; 
+		vertical-align: middle;
+		text-align: center;
+		border-top:0px <?php print $MainNavTabUpperColor; ?>;
+		border-left:1px white;
+		border-right:0px <?php print $MainNavTabUpperColor; ?>;
+		border-bottom:0px <?php print $MainNavTabUpperColor; ?>;
+		text-decoration: none;
+		background: <?php print $MainNavTabUpperCellSelectColor; ?>;
+		}	
+		
+.MainNavLower {
+		position: absolute;
+		top:<?php print $ManinNavLowerTop; ?>px;
+		left:0px;
+		margin:0;
+		padding:0;
+		line-height:<?php print $ManinNavLowerHeight; ?>px;
+		height:<?php print $ManinNavLowerHeight; ?>px;
+		width:<?php print $MainNavWidth; ?>px; 
+		background: <?php print $ManinNavLowerColor; ?>;
+		}
+
+		
+.LeftNav {
+		position: absolute;
+		left:0px;
+		top:<?php print $LeftNavTop; ?>px;
+		height:<?php print $LeftNavHeight; ?>px;
+		width:<?php print $LeftNavWidth; ?>px; 
+    background: <?php print $LeftNavBackgroundColor; ?>;
+		}
+
+/*  Credits: Dynamic Drive CSS Library      */
+/*  URL: http://www.dynamicdrive.com/style/ */
+
+.sidebarmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  line-height:15px;
+	border-top: 0px  solid  #c6d0d0;
+	font: 500 12px Verdana, Arial, Helvetica, sans-serif; 
+  width: 145px; /* Main Menu Item widths */
+  border-bottom: 1px solid #c6d0d0;
+}
+ 
+.sidebarmenu ul li  {
+  position: relative;
+}
+
+/* Top level menu links style */
+.topMenu   {
+  display: block;
+  overflow: auto; /*force hasLayout in IE7 */
+  font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	line-height:15px;
+	padding: 4 6;
+	border: 0px solid  #c6d0d0;
+	border-bottom: 1px  solid #c6d0d0;
+	color: #c6d0d0;
+  background-color: #1b5f5d;
+}
+
+.sidebarmenu ul li a  {
+  display: block;
+  overflow: auto; /*force hasLayout in IE7 */
+  color: black;
+  text-decoration: none;
+  line-height:15px;
+  padding: 4 6;
+  border-bottom: 1px solid #c6d0d0;
+  border-right: 0px solid #778;
+}
+
+
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited, .sidebarmenu ul li a:active  {
+  background-color: #468e8b; /*background of tabs (default state)*/
+}
+
+.sidebarmenu ul li strong a:link, .sidebarmenu ul li strong a:visited, .sidebarmenu ul li strong a:active  {
+  font: 500 12px Verdana, Arial, Helvetica, sans-serif;
+  background-color: white; /*background of tabs (default state)*/
+}
+
+.sidebarmenu ul li a:hover  {
+  background-color: #70b1af;
+}
+
+/*  Sub level menu items */
+.sidebarmenu ul li ul {
+  position: absolute;
+  width: 145px; /*Sub Menu Items width */
+  top: 0;
+  visibility: hidden;
+}
+
+.sidebarmenu a.subfolderstyle {
+  background: url('images/right.gif') no-repeat 97% 50%;
+}
+
+ 
+/* Holly Hack for IE \*/
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
+/* End */
+
+/*
+#LeftNav-side-nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;  
+}
+
+#LeftNav-side-nav li {
+	font: 500 12px Verdana, Arial, Helvetica, sans-serif; 
+	margin: 0;
+	padding: 0;  
+	line-height:15px;
+	border-top: 0px  solid  #c6d0d0;
+	// IE/Win gets upset if there is no bottom border... Go figure. 
+	border-bottom: 1px  solid #c6d0d0;
+	background-color: #468e8b;
+}	
+
+#LeftNav-side-nav li strong {
+	font: 800 13px Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	line-height:20px;
+	border: 0px solid  #c6d0d0;
+	border-bottom: 1px  solid #c6d0d0;
+	color: #c6d0d0;
+	background-color: #1b5f5d;
+}	
+
+#LeftNav-side-nav li strong  a {
+  font: 500 12px Verdana, Arial, Helvetica, sans-serif;
+  display: block;
+  line-height:20px;
+  background-color: white;
+  border-bottom: 0px solid  white;
+  color: black;
+  padding: 0 6;
+}       
+
+#LeftNav-side-nav a {
+	color: black;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: 4 6;
+
+}
+
+#LeftNav-side-nav a:hover {
+	background-color: #70b1af;
+	color: blue;
+}
+
+#LeftNav-side-nav strong a {
+	font-weight: normal;
+	color: black; !important;
+	background-color: white;
+	margin: 0;
+	padding: 2 6;
+}
+
+#LeftNav-side-nav strong a:hover {
+	background-color:  white; !important;
+}
+		
+*/
+
+
+.AdsArea {
+		position: absolute;
+		left:<?php print $WALeft; ?>px;
+		top:<?php print $AdsAreaTop; ?>px;
+		height:<?php print $AdsAreaHeight; ?>px;
+		width:<?php print $AdsAreaWidth; ?>px; 
+    background: <?php print $AdsAreaBackgroundColor; ?>;
+		}
+		
+.Workarea {
+		position: absolute;
+		overflow: hidden;
+		left:<?php print $WALeft; ?>px;
+		top:<?php print $WATop; ?>px;
+		width:<?php print $WAWidth; ?>px;
+		height:<?php print $WAHeight; ?>px;
+		background: <?php print $WABackgroundColor; ?>;
+		}
+
+.Quickpickarea {
+		position: absolute;
+		overflow: hidden;
+		left:<?php print $QPLeft; ?>px;
+		top:<?php print $QPTop; ?>px;
+		width:<?php print $QPWidth; ?>px;
+		height:<?php print $QPHeight; ?>px;
+		background: <?php print $QPBackgroundColor; ?>;
+		}
+		
+.WAbreadCrumb {
+		position: absolute;
+		display:block;
+		overflow: hidden;
+		left:<?php print $WAbreadcrumbLeft; ?>px;
+		top:<?php print $WAbreadcrumbTop; ?>px;
+		width:<?php print $WAbreadcrumbWidth; ?>px;
+		height:<?php print $WAbreadcrumbHeight; ?>px;
+		background: <?php print $WAbreadcrumbBackgroundColor; ?>;
+		}
+	
+.breadCrumb   { 
+		font: <?php print $WAbreadcrumbTextWeight; ?> <?php print $WAbreadcrumbTextFontSize; ?>px <?php print $WAbreadcrumbTextFonts; ?>; 
+		color: <?php print $WAbreadcrumbTextColor; ?>;
+		line-height: <?php print $WAbreadcrumbTextLineHeight; ?>px;
+		text-decoration: none;
+		}
+				
+.breadCrumb:hover   { 
+		color: <?php print $WAbreadcrumbTextColoHover; ?>;
+		font: <?php print $WAbreadcrumbTextWeight; ?> <?php print $WAbreadcrumbTextFontSize; ?>px <?php print $WAbreadcrumbTextFonts; ?>; 
+		line-height: <?php print $WAbreadcrumbTextLineHeight; ?>px; 
+		text-decoration: none;
+		}
+
+.WAtitleBorder {
+		position: absolute;
+		display:block;
+		overflow: hidden;
+		top:<?php print $WAtitleborderTop; ?>px;
+		left:<?php print $WAtitleborderLeft; ?>px;
+		width:<?php print $WAtitleborderWidth; ?>px;
+		height:<?php print $WAtitleborderHeight; ?>px;
+		background: <?php print $WAtitleborderBackgroundColor; ?>;
+		}
+
+.titleBorder {
+		color:<?php print $WAtitleborderTextColor; ?>;
+		font: <?php print $WAtitleborderTextWeight; ?> <?php print $WAtitleborderTextFontSize; ?>px <?php print $WAtitleborderTextFonts; ?>;
+		text-align: <?php print $WAtitleborderTextAlign; ?>;
+		font-style: <?php print $WAtitleborderTextLineStyle; ?>;
+		border-bottom:<?php print $WAtitleborderBottomSize; ?>px solid <?php print $WAtitleborderBottomColor; ?>;
+		}
+
+.WAhome {
+		position: absolute;
+		display:block;
+		overflow: hidden;
+		left:<?php print $WAhomeLeft; ?>px;
+		top:<?php print $WAhomeTop; ?>px;
+		width:<?php print $WAhomeWidth; ?>px;
+		height:<?php print $WAhomeHeight; ?>px;
+		background: <?php print $WAhomeBackgroundColor; ?>;
+		}	
+		
+.WAmain {
+		position: absolute;
+		display:block;
+		overflow: hidden;
+		left:<?php print $WAmainLeft; ?>px;
+		top:<?php print $WAmainTop; ?>px;
+		width:<?php print $WAmainWidth; ?>px;
+		height:<?php print $WAmainHeight; ?>px;
+		background: <?php print $WAmainBackgroundColor; ?>;
+		}	
+		
+.WAselect {
+		position: absolute;
+		display:block;
+		overflow: auto;
+		left:<?php print $WAselectLeft; ?>px;
+		top:<?php print $WAselectTop; ?>px;
+		width:<?php print $WAselectWidth; ?>px;
+		height:<?php print $WAselectHeight; ?>px;
+		background: <?php print $WAselectBackgroundColor; ?>;
+		}			
+
+		
+.Footer {
+		position: absolute; 
+		display:block;
+		top:<?php print $FooterTop; ?>px; 
+		left:<?php print $FooterLeft; ?>px;
+		width:<?php print $FooterWidth; ?>px;
+    height: <?php print $FooterHeight; ?>px;
+		border:<?php print $FooterBorderWidth; ?>px solid <?php print $FooterBorderColor; ?>;
+		background: <?php print $FooterBackgroundColor; ?>;
+		}
+
+/*									         */
+/*   Personal EMS Info   		 */
+/*									         */
+		
+#PersonalEMSForm {
+		position: absolute;
+    overflow: hidden;
+    top:<?php print $PersonalEMSFormTop; ?>px;
+		left:<?php print $PersonalEMSFormLeft; ?>px;
+		width:<?php print $PersonalEMSFormWidth; ?>px;
+		height:<?php print $PersonalEMSFormHeight; ?>px;
+		background: yellow;
+		}
+
+#ContactInfo {
+		position: absolute;
+    top:<?php print $ContactInfoTop; ?>px;
+		left:<?php print $ContactInfoLeft; ?>px;
+		width:<?php print $ContactInfoWidth; ?>px;
+		height:<?php print $ContactInfoHeight; ?>px;
+		background: <?php print $ContactInfoBackgroundColor; ?>;
+		}
+
+#PersonPhoto {
+		position: absolute;
+    top:<?php print $PersonPhotoTop; ?>px;
+		left:<?php print $PersonPhotoLeft; ?>px;
+		width:<?php print $PersonPhotoWidth; ?>px;
+		height:<?php print $PersonPhotoHeight; ?>px;
+		background: <?php print $PersonPhotoBackgroundColor; ?>;
+		}
+    
+#PersonName {
+		position: absolute;
+    top:<?php print $PersonNameTop; ?>px;
+		left:<?php print $PersonNameLeft; ?>px;
+		width:<?php print $PersonNameWidth; ?>px;
+		height:<?php print $PersonNameHeight; ?>px;
+		background: <?php print $PersonNameBackgroundColor; ?>;
+		}
+    
+#PersonContact {
+		position: absolute;
+    top:<?php print $PersonContactTop; ?>px;
+		left:<?php print $PersonContactLeft; ?>px;
+		width:<?php print $PersonContactWidth; ?>px;
+		height:<?php print $PersonContactHeight; ?>px;
+		background: <?php print $PersonContactBackgroundColor; ?>;
+		}
+    
+#PersonAddress {
+		position: absolute;
+    top:<?php print $PersonAddressTop; ?>px;
+		left:<?php print $PersonAddressLeft; ?>px;
+		width:<?php print $PersonAddressWidth; ?>px;
+		height:<?php print $PersonAddressHeight; ?>px;
+		background: <?php print $PersonAddressBackgroundColor; ?>;
+		}
+
+#PersonAlerts {
+		position: absolute;
+    top:<?php print $PersonAlertsTop; ?>px;
+		left:<?php print $PersonAlertsLeft; ?>px;
+		width:<?php print $PersonAlertsWidth; ?>px;
+		height:<?php print $PersonAlertsHeight; ?>px;
+		background: <?php print $PersonAlertsBackgroundColor; ?>;
+		}
+
+#EMSInfo {
+		position: absolute;
+    top:<?php print $EMSInfoTop; ?>px;
+		left:<?php print $EMSInfoLeft; ?>px;
+		width:<?php print $EMSInfoWidth; ?>px;
+		height:<?php print $EMSInfoHeight; ?>px;
+		background: <?php print $EMSInfoBackgroundColor; ?>;
+		}
+
+
+#EMSDetail {
+		position: absolute;
+    top:<?php print $EMSDetailTop; ?>px;
+		left:<?php print $EMSDetailLeft; ?>px;
+		width:<?php print $EMSDetailWidth; ?>px;
+		height:<?php print $EMSDetailHeight; ?>px;
+		background: <?php print $EMSDetailBackgroundColor; ?>;
+		}
+    
+#EMSBio {
+		position: absolute;
+    top:<?php print $EMSBioTop; ?>px;
+		left:<?php print $EMSBioLeft; ?>px;
+		width:<?php print $EMSBioWidth; ?>px;
+		height:<?php print $EMSBioHeight; ?>px;
+		background: <?php print $EMSBioBackgroundColor; ?>;
+		}
+    
+    
+.FormElement {
+    font: 500 11px Verdana, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 15px;
+    }
+
+.FormElement input, textarea {
+    font: 500 11px Verdana, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 15px;
+    }
+
+.FormTitle {
+    font: 700 13px Verdana, Helvetica, sans-serif;
+    color: blue;
+    line-height: 25px;
+    }
+   
+    
+/*                                  */    
+/*    Miscelaneous Styles           */    
+/*                                  */
+.leftLink   { 
+		font: 700 11px Helvetica, Arial,Geneva;
+		color: black; 
+		line-height: 13px; 
+		text-decoration: none;
+		}
+				
+.leftLink:hover   { 
+		color: blue;
+		font: 700 11px Helvetica, Arial,Geneva;
+		line-height: 13px; 
+		text-decoration: underline;
+		}
+
+.leftLinkSelect   { 
+		font: 700 11px Helvetica, Arial,Geneva;
+		color: black; 
+		line-height: 13px; 
+		text-decoration: none;
+		background-color:#99CC99;
+		}
+				
+.leftLinkSelect:hover   { 
+		color: black;
+		font: 700 11px Helvetica, Arial,Geneva;
+		line-height: 13px; 
+		text-decoration: underline;
+		background-color:#99CC99;
+		}
+
+.smallTextLegend {
+		color: black;
+		font: 700 10px Verdana, Arial, Helvetica;
+		}	
+
+.smallText {
+		font: 500 12px Arial,Helvetica;
+		}
+		
+.verysmallText {
+		font: 500 9px Arial,Helvetica;
+		}	
+
+		
+.verysmallTextBlueMargin {
+		margin: 10px;
+		color: blue;
+		font: 500 9px Arial,Helvetica;
+		}	
+		
+		

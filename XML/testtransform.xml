@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xample.person>
+  <person>
+    <person_id>PA</person_id>
+    <first_name>Pamela</first_name>
+    <last_name>Anderson</last_name>
+    <initials>pa</initials>
+    <star_sign>Virgo</star_sign>
+  </person>
+  <person>
+    <person_id>KB</person_id>
+    <first_name>Kim</first_name>
+    <last_name>Basinger</last_name>
+    <initials>kb</initials>
+    <star_sign>Sagittarius</star_sign>
+  </person>
+  <person>
+    .....
+  </person>
+  <actbar>
+    <button id="person_search.php">SEARCH</button>
+    <button id="reset">RESET</button>
+    <button id="finish">FINISH</button>
+  </actbar>
+</xample.person>
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Squad%20Member%20Equipment%20List.xsd" generated="2009-12-10T09:09:04">
+<MemberEquipmentExtended>
+<SquadID>1</SquadID>
+<SquadMemberID>1</SquadMemberID>
+<Squad_x0020_Name>Stowe Rescue Squad</Squad_x0020_Name>
+<Last_x0020_Name>Nunez</Last_x0020_Name>
+<First_x0020_Name>Nick</First_x0020_Name>
+<Description>Two Way Radio</Description>
+<CategoryDescritption>Communications</CategoryDescritption>
+<EquipmentActive>1</EquipmentActive>
+<EquipmentAssignedDate>2009-12-01T00:00:00</EquipmentAssignedDate>
+<Condition>(2) Good</Condition>
+<Acquired_x0020_Date>2009-12-01T00:00:00</Acquired_x0020_Date>
+<Manufacturer>Motorola</Manufacturer>
+<Model>abc123</Model>
+</MemberEquipmentExtended>
+<MemberEquipmentExtended>
+<SquadID>1</SquadID>
+<SquadMemberID>1</SquadMemberID>
+<Squad_x0020_Name>Stowe Rescue Squad</Squad_x0020_Name>
+<Last_x0020_Name>Nunez</Last_x0020_Name>
+<First_x0020_Name>Nick</First_x0020_Name>
+<Description>Pager</Description>
+<CategoryDescritption>Communications</CategoryDescritption>
+<EquipmentActive>1</EquipmentActive>
+<EquipmentAssignedDate>2009-12-01T00:00:00</EquipmentAssignedDate>
+<Condition>(2) Good</Condition>
+<Acquired_x0020_Date>2009-12-01T00:00:00</Acquired_x0020_Date>
+<Manufacturer>Motorola</Manufacturer>
+<Model>abc987</Model>
+</MemberEquipmentExtended>
+<MemberEquipmentExtended>
+<SquadID>1</SquadID>
+<SquadMemberID>1</SquadMemberID>
+<Squad_x0020_Name>Stowe Rescue Squad</Squad_x0020_Name>
+<Last_x0020_Name>Nunez</Last_x0020_Name>
+<First_x0020_Name>Nick</First_x0020_Name>
+<Description>O2</Description>
+<CategoryDescritption>Jump Kit - First in bag</CategoryDescritption>
+<EquipmentActive>1</EquipmentActive>
+<EquipmentAssignedDate>2009-12-01T00:00:00</EquipmentAssignedDate>
+<Condition>(2) Good</Condition>
+<Acquired_x0020_Date>2009-12-01T00:00:00</Acquired_x0020_Date>
+</MemberEquipmentExtended>
+</dataroot>

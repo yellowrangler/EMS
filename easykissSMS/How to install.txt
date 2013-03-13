@@ -1,0 +1,35 @@
+EASYKISS123.COM - Online video tutorials
+
+This version is slightly different than the 
+Video tutorial but The important things are
+still covered in the video. 
+
+
+Simply put the files on your server. 
+Open the file smsphp.php in your browser and it should work just fine.
+_____________________________________
+
+If you want to customize them. Just open them with notepad or some
+other text editor and follow the instructions in the files.
+
+What You'll likely want to change.You don't need to know any code to change these things.
+
+1. The list of cell phone providers in smsphp.php
+You can find a list of them here
+http://en.wikipedia.org/wiki/SMS_gateways
+
+You can view the video at easykiss123.com or follow the instructions in the files to change them.
+
+2. Customize your message in smsphp.php
+
+3. Customize The subject of your message in contact.php
+
+4. The success and error pages in contactthanks.html and contacterror.html
+	These two pages are bare bones html and you can do whatever you want with them
+
+5. There is now a style sheet called style.css to make it easier to customize the look
+
+
+easykiss123.com
+Online video tutorials
+

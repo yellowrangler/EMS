@@ -1,0 +1,160 @@
+<?php
+ 
+//----------------------------------------------------------------------------------------------------------
+// Define constants
+//----------------------------------------------------------------------------------------------------------
+$EmptyTag = "No Tags"; 
+$JustTag = "Tagged"; 
+$AllTag = "All"; 
+$ToolTips = "on"; 
+$spacer = "&nbsp;&nbsp;&nbsp;";
+
+//----------------------------------------------------------------------------------------------------------
+// Define host
+//----------------------------------------------------------------------------------------------------------
+// include ('EMSsetHost.php');
+
+//----------------------------------------------------------------------------------------------------------
+// Define directories
+//----------------------------------------------------------------------------------------------------------
+$EMSDirectory = "/EMS";
+$EMSDirectoryWS = $EMSDirectory."/";
+
+//----------------------------------------------------------------------------------------------------------
+// all content
+//----------------------------------------------------------------------------------------------------------
+$allcontentWidth = 950;
+$allcontentBackgroundColor = "white";
+
+//----------------------------------------------------------------------------------------------------------
+// Banner variables
+//----------------------------------------------------------------------------------------------------------
+$BannerHeight = 70;
+$BannerWidth = $allcontentWidth;
+$BannerBackgroundColor = "lightgreen";
+
+//----------------------------------------------------------------------------------------------------------
+// Main Nav variables
+//----------------------------------------------------------------------------------------------------------
+$MainNavTop = $BannerHeight;
+$MainNavHeight = 30;
+$MainNavWidth = $allcontentWidth;
+$MainNavBackgroundColor = "lightblue";
+
+//----------------------------------------------------------------------------------------------------------
+// Left Nav variables
+//----------------------------------------------------------------------------------------------------------
+$LeftNavTop = $MainNavTop + $MainNavHeight - 1;
+$LeftNavHeight = 650;
+$LeftNavWidth = 145;
+$LeftNavBackgroundColor = "yellow";
+
+//----------------------------------------------------------------------------------------------------------
+// AdsArea variables
+//----------------------------------------------------------------------------------------------------------
+$AdsAreaTop = $MainNavTop + $MainNavHeight - 1;
+$AdsAreaHeight = 15;
+$AdsAreaWidth = $allcontentWidth - $LeftNavWidth;
+$AdsAreaBackgroundColor = "orange";
+$AdsAreaLeft = $LeftNavWidth;
+
+//----------------------------------------------------------------------------------------------------------
+//  Workarea variables
+//----------------------------------------------------------------------------------------------------------
+$WATop = $AdsAreaTop + $AdsAreaHeight - 1;
+$WAHeight = 635;
+$WALeft = $LeftNavWidth;
+//
+// Special Case. We need QP variable defined before width calc
+//
+$QPWidth = 175;
+
+$WAWidth = $allcontentWidth - ($WALeft + $QPWidth);
+$WABackgroundColor = "grey";
+
+//----------------------------------------------------------------------------------------------------------
+//  Quickpickarea variables
+//----------------------------------------------------------------------------------------------------------
+$QPTop = $WATop;
+$QPHeight = $WAHeight;
+$QPLeft = ($WALeft + $WAWidth);
+// already defined above $QPWidth
+
+$QPBackgroundColor = "red";
+
+//----------------------------------------------------------------------------------------------------------
+// Footer variables
+//----------------------------------------------------------------------------------------------------------
+$FooterTop = $LeftNavTop + $LeftNavHeight;
+$FooterLeft = 0;
+$FooterWidth = $allcontentWidth;
+$FooterBackgroundColor = "blue";
+
+//----------------------------------------------------------------------------------------------------------
+// EMS Form variables
+//----------------------------------------------------------------------------------------------------------
+$PersonalEMSFormTop = 0;
+$PersonalEMSFormLeft = 0;
+$PersonalEMSFormWidth = $WAWidth;
+$PersonalEMSFormHeight = $WAHeight - 1;
+$PersonalEMSFormBackgroundColor = "white";
+
+$ContactInfoTop = $PersonalEMSFormTop;
+$ContactInfoLeft = $PersonalEMSFormLeft;
+$ContactInfoWidth = 350;
+$ContactInfoHeight = $PersonalEMSFormHeight - ($ContactInfoTop * 2);
+$ContactInfoBackgroundColor = "white";
+
+$PersonPhotoTop = $ContactInfoTop + 2;
+$PersonPhotoLeft = $ContactInfoLeft + 2;
+$PersonPhotoWidth = 75;
+$PersonPhotoHeight = 90;
+$PersonPhotoBackgroundColor = "white";
+
+$PersonNameTop = $PersonPhotoTop;
+$PersonNameLeft = $PersonPhotoLeft + $PersonPhotoWidth + 10;
+$PersonNameWidth = $ContactInfoWidth - $PersonNameLeft;
+$PersonNameHeight = $PersonPhotoHeight;
+$PersonNameBackgroundColor = "white";
+
+$PersonContactTop = $PersonNameTop + $PersonNameHeight;
+$PersonContactLeft = $ContactInfoLeft + 2;
+$PersonContactWidth = $ContactInfoWidth;
+$PersonContactHeight = 125;
+$PersonContactBackgroundColor = "white";
+
+$PersonAddressTop = $PersonContactTop + $PersonContactHeight;
+$PersonAddressLeft = $ContactInfoLeft + 2;
+$PersonAddressWidth = $ContactInfoWidth;
+$PersonAddressHeight = 175;
+$PersonAddressBackgroundColor = "white";
+
+$PersonAlertsTop = $PersonAddressTop + $PersonAddressHeight;
+$PersonAlertsLeft = $ContactInfoLeft + 2;
+$PersonAlertsWidth = $ContactInfoWidth;
+$PersonAlertsHeight = 50;
+$PersonAlertsBackgroundColor = "white";
+
+$EMSInfoTop = $PersonalEMSFormTop;
+$EMSInfoLeft = $ContactInfoWidth;
+$EMSInfoWidth = $PersonalEMSFormWidth - $ContactInfoWidth;
+$EMSInfoHeight = $PersonalEMSFormHeight;
+$EMSInfoBackgroundColor = "white";
+
+$EMSDetailTop = $PersonalEMSFormTop;
+$EMSDetailLeft = 0;
+$EMSDetailWidth = $PersonalEMSFormWidth/2;
+$EMSDetailHeight = 175;
+$EMSDetailBackgroundColor = "white";
+
+$EMSBioTop = $EMSDetailTop + $EMSDetailHeight;
+$EMSBioLeft = 0;
+$EMSBioWidth = $PersonalEMSFormWidth/2;
+$EMSBioHeight = 150;
+$EMSBioBackgroundColor = "white";
+
+
+
+
+
+?>
